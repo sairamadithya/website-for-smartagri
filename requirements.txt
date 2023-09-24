@@ -1,0 +1,8 @@
+streamlit
+pandas
+sklearn
+tensorflow
+keras
+numpy
+matplotlib
+pillow
