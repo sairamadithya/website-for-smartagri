@@ -11,7 +11,6 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 from PIL import Image, ImageOps
 from tensorflow.keras import backend, layers
-import sklearn
 st.markdown(
          f"""
          <style>
