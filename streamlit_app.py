@@ -42,7 +42,7 @@ activities=['SECTION 1-Crop recommendation','SECTION 2-Crop disease identificati
 option=st.sidebar.selectbox('choose the options displayed below',activities) 
 st.subheader(option) 
 if option=='SECTION 1-Crop recommendation':
-    model1= pickle.load(open(r"trained_model.pkl", 'rb'))
+    model1= pickle.load(open("trained_model.pkl", 'rb'))
     x1=st.number_input('Enter the value of soil nitrogen',0,140)
     x2=st.number_input('Enter the value of soil phosphorus',5,145)
     x3=st.number_input('Enter the value of soil potassium',5,205)
