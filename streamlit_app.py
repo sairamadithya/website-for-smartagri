@@ -2,9 +2,6 @@
 # coding: utf-8
 
 # In[49]:
-
-
-%%writefile smartagri-ML.py
 import streamlit as st
 import numpy as np
 import pandas as pd
